@@ -6019,7 +6019,7 @@
 	)
 	(symbol
 		(lib_id "LIN_USB_CONVERTER-rescue:fiducial-RESCUE-LIN_USB_CONVERTER")
-		(at 266.7 19.05 0)
+		(at 247.65 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6027,7 +6027,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005811b18f")
 		(property "Reference" "mh1"
-			(at 262.89 15.24 0)
+			(at 243.84 15.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6035,7 +6035,7 @@
 			)
 		)
 		(property "Value" "fiducial"
-			(at 273.05 25.4 0)
+			(at 254 25.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6044,7 +6044,7 @@
 			)
 		)
 		(property "Footprint" "usb_ccb_custom:1pin"
-			(at 266.7 19.05 0)
+			(at 247.65 19.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6053,7 +6053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 19.05 0)
+			(at 247.65 19.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6062,7 +6062,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 19.05 0)
+			(at 247.65 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +6184,8 @@
 	)
 	(symbol
 		(lib_id "LIN_USB_CONVERTER-rescue:Conn_01x03-RESCUE-LIN_USB_CONVERTER")
-		(at 57.15 118.11 180)
+		(at 57.15 118.11 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6192,7 +6193,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a6a1ee0")
 		(property "Reference" "J2"
-			(at 57.15 113.03 0)
+			(at 57.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,7 +6201,7 @@
 			)
 		)
 		(property "Value" "TerminalBlock"
-			(at 57.15 113.03 0)
+			(at 57.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
 			(at 57.15 118.11 0)
 			(effects
 				(font
@@ -6253,7 +6254,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS Part #" "C5188437"
+		(property "LCSC Part #" "C424695"
 			(at 57.15 118.11 0)
 			(effects
 				(font
@@ -7900,6 +7901,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C49257"
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b8d8f937-1c9c-4193-9b96-8b9818e5ee26")
 		)
@@ -9184,7 +9194,7 @@
 	)
 	(symbol
 		(lib_id "LIN_USB_CONVERTER-rescue:fiducial-RESCUE-LIN_USB_CONVERTER")
-		(at 276.86 19.05 0)
+		(at 257.81 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9192,7 +9202,7 @@
 		(dnp yes)
 		(uuid "39959f60-cba4-4d13-a432-c4819d908925")
 		(property "Reference" "mh2"
-			(at 273.05 15.24 0)
+			(at 254 15.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9200,7 +9210,7 @@
 			)
 		)
 		(property "Value" "fiducial"
-			(at 283.21 25.4 0)
+			(at 264.16 25.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9209,7 +9219,7 @@
 			)
 		)
 		(property "Footprint" "usb_ccb_custom:1pin"
-			(at 276.86 19.05 0)
+			(at 257.81 19.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9218,7 +9228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 19.05 0)
+			(at 257.81 19.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9227,7 +9237,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 19.05 0)
+			(at 257.81 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9759,6 +9769,130 @@
 			(project "LIN_USB_CONVERTER"
 				(path "/d3cbf460-a65f-43bb-9c31-9907e36faf8d"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIN_USB_CONVERTER-rescue:fiducial-RESCUE-LIN_USB_CONVERTER")
+		(at 267.97 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8f3498e9-cecc-4ac2-80a3-a605ec3a1682")
+		(property "Reference" "mh3"
+			(at 264.16 15.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "fiducial"
+			(at 274.32 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "usb_ccb_custom:1pin"
+			(at 267.97 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LIN_USB_CONVERTER"
+				(path "/d3cbf460-a65f-43bb-9c31-9907e36faf8d"
+					(reference "mh3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIN_USB_CONVERTER-rescue:fiducial-RESCUE-LIN_USB_CONVERTER")
+		(at 278.13 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "938d6f6e-3f5a-47c7-a869-6c5cbbefc7b1")
+		(property "Reference" "mh4"
+			(at 274.32 15.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "fiducial"
+			(at 284.48 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "usb_ccb_custom:1pin"
+			(at 278.13 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LIN_USB_CONVERTER"
+				(path "/d3cbf460-a65f-43bb-9c31-9907e36faf8d"
+					(reference "mh4")
 					(unit 1)
 				)
 			)
